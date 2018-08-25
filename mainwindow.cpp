@@ -16,6 +16,6 @@ MainWindow::~MainWindow()
 
 void MainWindow::on_pushButton_clicked()
 {
-    ui->lineEdit->setText("新手学习第一节！");
+    ui->lineEdit->setText("你好，世界！");
     ui->pushButton->setText("change text");
 }
