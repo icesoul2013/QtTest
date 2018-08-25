@@ -16,7 +16,6 @@ MainWindow::~MainWindow()
 
 void MainWindow::on_pushButton_clicked()
 {
-    ui->lineEdit->setText("中华人民共和国万岁！");
-    ui->pushButton->setText("支持");
-
+    ui->lineEdit->setText("新手学习第一节！");
+    ui->pushButton->setText("change text");
 }
